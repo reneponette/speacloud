@@ -1,0 +1,21 @@
+extends ../layout
+
+block content
+	.panel.panel-default
+		.panel-heading
+			a(href='/novels/new'): buttton.btn.btn-default.pull-right New			
+			h2.title= title
+		.panel-body
+			table.table.table-striped
+				thead
+					tr
+						th title
+						th owner
+						th type
+
+				tbody
+					each sentence in sentences
+						tr
+							td fkdfk
+							td slkhsldf
+
